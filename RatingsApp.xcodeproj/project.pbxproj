@@ -7,23 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF13549A244B1DDA0064BBE7 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF135499244B1DDA0064BBE7 /* Database.swift */; };
 		BF3087CE2449EC38000645B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3087CD2449EC38000645B5 /* AppDelegate.swift */; };
 		BF3087D02449EC38000645B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3087CF2449EC38000645B5 /* SceneDelegate.swift */; };
-		BF3087D22449EC38000645B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3087D12449EC38000645B5 /* ViewController.swift */; };
+		BF3087D22449EC38000645B5 /* RangeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3087D12449EC38000645B5 /* RangeSelectionViewController.swift */; };
 		BF3087D52449EC38000645B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3087D32449EC38000645B5 /* Main.storyboard */; };
 		BF3087D72449EC3C000645B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3087D62449EC3C000645B5 /* Assets.xcassets */; };
 		BF3087DA2449EC3C000645B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3087D82449EC3C000645B5 /* LaunchScreen.storyboard */; };
+		BFE643D0244A178800CC0FB1 /* RatingSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE643CF244A178800CC0FB1 /* RatingSelectionViewController.swift */; };
+		BFE643D3244AD7E200CC0FB1 /* CoreDataSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFE643D1244AD7E200CC0FB1 /* CoreDataSample.xcdatamodeld */; };
+		BFE643D8244ADB7B00CC0FB1 /* HistoryRatingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE643D7244ADB7B00CC0FB1 /* HistoryRatingsViewController.swift */; };
+		BFE643DA244AE20900CC0FB1 /* RatingsHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE643D9244AE20900CC0FB1 /* RatingsHistoryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04586BF2244AAA2800FCE721 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BF135499244B1DDA0064BBE7 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Database.swift; path = ../../../../Downloads/Database.swift; sourceTree = "<group>"; };
 		BF3087CA2449EC38000645B5 /* RatingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3087CD2449EC38000645B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF3087CF2449EC38000645B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF3087D12449EC38000645B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF3087D12449EC38000645B5 /* RangeSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSelectionViewController.swift; sourceTree = "<group>"; };
 		BF3087D42449EC38000645B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF3087D62449EC3C000645B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF3087D92449EC3C000645B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF3087DB2449EC3C000645B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE643CF244A178800CC0FB1 /* RatingSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingSelectionViewController.swift; sourceTree = "<group>"; };
+		BFE643D2244AD7E200CC0FB1 /* CoreDataSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataSample.xcdatamodel; sourceTree = "<group>"; };
+		BFE643D7244ADB7B00CC0FB1 /* HistoryRatingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRatingsViewController.swift; sourceTree = "<group>"; };
+		BFE643D9244AE20900CC0FB1 /* RatingsHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsHistoryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +48,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04586BAF244AA47800FCE721 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				BF135499244B1DDA0064BBE7 /* Database.swift */,
+				BFE643D1244AD7E200CC0FB1 /* CoreDataSample.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		04586BF1244AAA2700FCE721 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04586BF2244AAA2800FCE721 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF3087C12449EC38000645B5 = {
 			isa = PBXGroup;
 			children = (
 				BF3087CC2449EC38000645B5 /* RatingsApp */,
 				BF3087CB2449EC38000645B5 /* Products */,
+				04586BF1244AAA2700FCE721 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +85,43 @@
 		BF3087CC2449EC38000645B5 /* RatingsApp */ = {
 			isa = PBXGroup;
 			children = (
-				BF3087CD2449EC38000645B5 /* AppDelegate.swift */,
-				BF3087CF2449EC38000645B5 /* SceneDelegate.swift */,
-				BF3087D12449EC38000645B5 /* ViewController.swift */,
-				BF3087D32449EC38000645B5 /* Main.storyboard */,
+				04586BAF244AA47800FCE721 /* Database */,
+				BFE643D4244ADA8300CC0FB1 /* AppDelegateFolder */,
+				BFE643D5244ADA9E00CC0FB1 /* Controllers */,
+				BFE643D6244ADAB200CC0FB1 /* View */,
 				BF3087D62449EC3C000645B5 /* Assets.xcassets */,
 				BF3087D82449EC3C000645B5 /* LaunchScreen.storyboard */,
 				BF3087DB2449EC3C000645B5 /* Info.plist */,
 			);
 			path = RatingsApp;
+			sourceTree = "<group>";
+		};
+		BFE643D4244ADA8300CC0FB1 /* AppDelegateFolder */ = {
+			isa = PBXGroup;
+			children = (
+				BF3087CF2449EC38000645B5 /* SceneDelegate.swift */,
+				BF3087CD2449EC38000645B5 /* AppDelegate.swift */,
+			);
+			path = AppDelegateFolder;
+			sourceTree = "<group>";
+		};
+		BFE643D5244ADA9E00CC0FB1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF3087D12449EC38000645B5 /* RangeSelectionViewController.swift */,
+				BFE643CF244A178800CC0FB1 /* RatingSelectionViewController.swift */,
+				BFE643D7244ADB7B00CC0FB1 /* HistoryRatingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BFE643D6244ADAB200CC0FB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF3087D32449EC38000645B5 /* Main.storyboard */,
+				BFE643D9244AE20900CC0FB1 /* RatingsHistoryTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3087D22449EC38000645B5 /* ViewController.swift in Sources */,
+				BF3087D22449EC38000645B5 /* RangeSelectionViewController.swift in Sources */,
 				BF3087CE2449EC38000645B5 /* AppDelegate.swift in Sources */,
 				BF3087D02449EC38000645B5 /* SceneDelegate.swift in Sources */,
+				BFE643DA244AE20900CC0FB1 /* RatingsHistoryTableViewCell.swift in Sources */,
+				BFE643D8244ADB7B00CC0FB1 /* HistoryRatingsViewController.swift in Sources */,
+				BF13549A244B1DDA0064BBE7 /* Database.swift in Sources */,
+				BFE643D3244AD7E200CC0FB1 /* CoreDataSample.xcdatamodeld in Sources */,
+				BFE643D0244A178800CC0FB1 /* RatingSelectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +398,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFE643D1244AD7E200CC0FB1 /* CoreDataSample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFE643D2244AD7E200CC0FB1 /* CoreDataSample.xcdatamodel */,
+			);
+			currentVersion = BFE643D2244AD7E200CC0FB1 /* CoreDataSample.xcdatamodel */;
+			path = CoreDataSample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BF3087C22449EC38000645B5 /* Project object */;
 }
